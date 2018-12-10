@@ -7,7 +7,6 @@ describe("Square", function() {
   it("Calculates area of the square", function() {
     square.calculateArea()
     expect(square.area).toEqual(25);
-
   });
 
 });
