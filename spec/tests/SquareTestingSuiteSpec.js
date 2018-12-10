@@ -7,6 +7,11 @@ describe('Square testing', function () {
 
     it('calculates area', function(){
       square.calculateArea();
-      equal(square.area, 22)
+      equal(square.area, 25)
+    });
+
+    it('calculates area', function(){
+      square.calculateArea();
+      equal(square.area, 20)
     });
 });
